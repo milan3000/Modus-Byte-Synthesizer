@@ -1,0 +1,36 @@
+#include <Arduino.h>
+#include <MozziGuts.h>
+#include <ADC.h>
+#include <MIDI.h>
+#include <mozzi_midi.h>
+#include <Oscil.h>
+#include <ADSR.h>
+#include <LowPassFilter.h>
+#include <StateVariable.h>
+#include <Portamento.h>
+
+#include <tables/saw2048_int8.h>
+#include <tables/sin2048_int8.h>
+#include <tables/square_no_alias_2048_int8.h>
+#include <tables/triangle2048_int8.h>
+#include <tables/whitenoise8192_int8.h>
+#include <tables/sin8192_int8.h>
+#include <tables/saw8192_int8.h>
+#include <tables/smoothsquare8192_int8.h>
+#include <tables/chum9_int8.h>
+#include <tables/sawdown2048_int8.h>
+#include <tables/piano8192_int8.h>
+#include <tables/crunch8192_int8.h>
+#include <tables/slumber8192_int8.h>
+
+#include <pinDeclaration.h>
+#include <objectInitialization.h>
+#include <getterFunctions.h>
+#include <setterFunctions.h>
+#include <frontPanelVariables.h>
+#include <envelopes.h>
+#include <lfo.h>
+#include <midiCommunication.h>
+#include <oscillators.h>
+#include <filters.h>
+#include <audioOutput.h>
